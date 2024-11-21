@@ -93,92 +93,268 @@
             android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent">
-            <ImageView
-                android:src="@drawable/pizza"
+
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Food"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/jaula"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Museums"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/mapa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Outdoors"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/mirror"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Self-Care"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
 
 
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fondo_cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/beer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Drinks"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fondo_cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/cafe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Coffee"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fondo_cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/postre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Desert"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fondo_cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Entert"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
             android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent">
-            <ImageView
-                android:src="@drawable/pizza"
+
+            <LinearLayout
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/prismaticos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Sight"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Hotels"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Shopping"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-            <ImageView
-                android:src="@drawable/pizza"
-                android:background="@drawable/fondo_cuadrado"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
-                android:background="@drawable/fondo_cuadrado"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
-                android:background="@drawable/fondo_cuadrado"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <ImageView
-                android:src="@drawable/pizza"
-                android:background="@drawable/fondo_cuadrado"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_weight="3"
+                    android:src="@drawable/comba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:text="Exercise"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
         </LinearLayout>
 
 
