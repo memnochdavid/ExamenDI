@@ -183,12 +183,12 @@
 
         </LinearLayout>
         <LinearLayout
-
             android:layout_weight="1"
             android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent">
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -209,6 +209,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -229,6 +230,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -249,6 +251,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -276,6 +279,7 @@
             android:layout_height="match_parent">
 
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -296,6 +300,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -316,6 +321,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -336,6 +342,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
                 android:orientation="vertical"
                 android:background="@drawable/fondo_cuadrado"
                 android:layout_width="wrap_content"
@@ -368,6 +375,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cuatro"
         app:layout_constraintBottom_toTopOf="@+id/seis"/>
     <LinearLayout
+
         android:id="@+id/seis"
         android:orientation="horizontal"
         android:layout_width="match_parent"
